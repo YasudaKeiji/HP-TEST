@@ -39,7 +39,7 @@
 }
 
 .top-wrap__left__ttl h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   text-shadow: 0px 10px 10px rgb(0 0 0 / 40%);
   line-height: 1.25;
   margin-bottom: 3.5%;
@@ -183,7 +183,7 @@
 .info-wrap__body__block1__item .btn {
   margin-top: auto;
   padding-top: 50px;
-  width: 18rem;
+  width: 16rem;
 }
 
 .info-wrap__body__block1__item .btn a {

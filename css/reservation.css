@@ -20,10 +20,14 @@
 
 .method-wrap__left {
   width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px;
 }
 
 .method-wrap__left h2 {
   color: #000;
+  margin-bottom: 8%;
 }
 
 .method-wrap__left__ttl {
@@ -34,7 +38,11 @@
 
 .method-wrap__left__txt {
   color: #000;
-  margin-top: 7%;
+  padding: 0 10%;
+}
+
+.method-wrap__left__txt li{
+  margin-top: 5%;
 }
 
 .method-wrap__right {
@@ -44,8 +52,8 @@
 
 .method-wrap__right img {
   display: block;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -216,7 +224,7 @@
 
 .guide-wrap__right img {
   display: block;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
