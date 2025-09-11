@@ -99,6 +99,7 @@
 .web-wrap__body__guide {
   padding-left: 2.5%;
   margin-bottom: 5%;
+  color:#fff;
 }
 
 .web-wrap__con {
@@ -138,6 +139,7 @@
   width: 20%;
   border-radius: 5rem;
   background-color: #FF8C00;
+  transition: all 0.3s;
 }
 
 .web-wrap__con__form__btn button {
@@ -149,8 +151,15 @@
   border: unset;
   background-color: unset;
   line-height: 2.5;
-  transition: all 0.3s;
-  letter-spacing: 0.3em
+  letter-spacing: 0.3em;
+}
+
+.web-wrap__con__form__btn:hover {
+  background-color: #fff;
+}
+
+.web-wrap__con__form__btn:hover button{
+  color: #FF8C00;
 }
 
 .cancel-wrap__ttl {
@@ -196,6 +205,7 @@
   width: 20%;
   border-radius: 5rem;
   background-color: #FF8C00;
+  transition: all 0.3s;
 }
 
 .cancel-wrap__con__form__btn button {
@@ -207,8 +217,15 @@
   border: unset;
   background-color: unset;
   line-height: 2.5;
-  transition: all 0.3s;
   letter-spacing: 0.3em
+}
+
+.cancel-wrap__con__form__btn:hover {
+  background-color: #52B567;
+}
+
+.cancel-wrap__con__form__btn:hover button {
+  color: #333333;
 }
 
 .guide {

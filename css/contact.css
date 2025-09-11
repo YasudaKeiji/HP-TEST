@@ -59,6 +59,7 @@
 .info-wrap__ttl {
   text-align: center;
   margin-bottom: 5%;
+  color: #fff;
 }
 
 .info-wrap__con {
@@ -189,6 +190,7 @@
   background-color: unset;
   line-height: 2.5;
   transition: all 0.3s;
-  letter-spacing: 0.3em
+  letter-spacing: 0.3em;
+  padding-left: 7%;
 }
 
