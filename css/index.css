@@ -76,6 +76,14 @@
   margin-right: 5%;
 }
 
+.news-wrap__left .btn {
+  width: 17rem;
+}
+
+.news-wrap__left .btn a{
+  font-weight: bold;
+}
+
 .greet-wrap {
   display: flex;
   justify-content: space-between;
@@ -178,16 +186,20 @@
 
 .info-wrap__body__block1__item__txt {
   margin-top: 2.5%;
+  padding-left: 2%;
 }
 
 .info-wrap__body__block1__item .btn {
   margin-top: auto;
   padding-top: 50px;
-  width: 16rem;
+  width: 15rem;
+  margin-right: 20px;
 }
 
 .info-wrap__body__block1__item .btn a {
   line-height: 2.5;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .map-wrap iframe {

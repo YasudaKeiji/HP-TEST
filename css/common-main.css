@@ -121,6 +121,11 @@ body {
   border: solid 2.5px #52b567;
 }
 
+.c-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .f-ttl {
   position: relative;
   font-size: 2rem;
@@ -183,9 +188,9 @@ body {
 }
 
 .footer-wrap__right {
-  width: 50%;
+  width: 30%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   margin: 1.5%;
   align-items: center;
 }
@@ -193,12 +198,12 @@ body {
 .footer-wrap__right__item { 
   width: 40%;
   display: flex;
-  margin-top: 40px;
-  justify-content: space-between;
+  flex-direction: column;
   list-style: none;
 }
 
 .footer-wrap__right__item p{
+  margin-top: 40px;
   color: #fff;
 }
 

@@ -27,7 +27,7 @@
   padding: 2.5%;
   border: solid 3px #fff;
   border-radius: 10px;
-  box-shadow: 0 0 8px gray;
+  box-shadow: 0 0 3px gray;
   transition: all 0.3s;
 }
 
@@ -42,12 +42,16 @@
   margin-top: 7.5%;
 }
 
+.disease-wrap__con__block:hover i {
+  color: #fff; 
+}
+
 .disease-wrap__con__block p {
   margin-top: 20%;
   transition: all 0.3s;
 }
 
-.disease-wrap__con__block:hover {
+.disease-wrap__con__block:hover p {
   color: #fff;
 }
 
@@ -107,7 +111,7 @@
 .inter-wrap__right__con2 {
   margin-top: 14%;
   display: inline-block;
-  background-color: #E5F4E9;
+  background-color: #fff;
   color: #000;
   font-size: 1.3rem;
   font-weight: bold;
