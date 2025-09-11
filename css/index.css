@@ -208,6 +208,10 @@
   padding: unset;
 }
 
+.info-wrap__body__block1__item .btn p {
+  padding-left: 5px;
+}
+
 .map-wrap iframe {
   display: block;
   width: 100%;
