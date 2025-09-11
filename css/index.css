@@ -61,11 +61,12 @@
 }
 
 .news-wrap__left .btn {
-  width: 14rem;
+  width: 12rem;
 }
 
 .news-wrap__left .btn a {
   font-weight: bold;
+  font-size: 1.2rem
 }
 
 .news-wrap__right {
@@ -105,6 +106,11 @@
 
 .greet-wrap__left .btn {
   margin: 100px 0 0 auto;
+  width: 14rem;
+}
+
+.greet-wrap__left .btn a{
+  font-size: 1.3rem
 }
 
 .greet-wrap__right {
@@ -193,13 +199,13 @@
   margin-top: auto;
   padding-top: 50px;
   width: 15rem;
-  margin-right: 25px;
 }
 
 .info-wrap__body__block1__item .btn a {
   line-height: 2.5;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  padding: unset;
 }
 
 .map-wrap iframe {

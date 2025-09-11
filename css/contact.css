@@ -177,7 +177,8 @@
   width: 30%;
   margin: 0 auto;
   border-radius: 5rem;
-  background-color: #3E93D3;
+  background-color: #FF8C00;
+  transition: all 0.3s;
 }
 
 .con-wrap__con__form__btn button {
@@ -188,9 +189,20 @@
   color: #fff;
   border: unset;
   background-color: unset;
-  line-height: 2.5;
-  transition: all 0.3s;
+  border-radius: 5rem;
+  line-height: 2.4;
   letter-spacing: 0.3em;
   padding-left: 7%;
+  border: 2.0px solid transparent;
+}
+
+.con-wrap__con__form__btn:hover {
+  background-color: #fff;
+}
+
+.con-wrap__con__form__btn:hover button {
+  color: #FF8C00;
+  border: solid 2.0px #FF8C00;
+  outline: none;
 }
 
